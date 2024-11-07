@@ -203,20 +203,15 @@ include "configuracion.php"
 
   </div>
   <footer>
-    <img src="imagenes/footer.png" alt="">
+    <!-- <img src="imagenes/footer.png" alt=""> -->
     <div class="item_footer">
-
       <p><?php echo $lang['derechos'] ?></p>
-
     </div>
     <div class="item_footer">
       <h3><?php echo $lang['siguenos'] ?> <a href="https://www.facebook.com/DENTAL.JUAREZ.661/" target="_blank"><i class="fab fa-facebook-square"></i> </a></h3>
     </div>
-
-
-
-
   </footer>
+
   <script type="text/javascript" src="js/swiper.min.js"></script>
   <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
