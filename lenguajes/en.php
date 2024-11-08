@@ -6,7 +6,7 @@ $lang = array(
                  commitment in all our services.
                  ¡Guaranteed!",
     "informacion" => "More information",
-    "promo" => "Promotiones",
+    "promo" => "Promotions",
     "casos" => "clinical cases",
     "texto_dos" => "We are a Dental Clinic with more than 20 years of  experience, we are dedicated to the preservation of your 
                     dental health.Also, we count with trained dentists to realize all dental painless specialities. 

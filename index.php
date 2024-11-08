@@ -87,47 +87,61 @@ include "configuracion.php"
     <h3><?php echo $lang['promo'] ?></h3>
     <hr>
     <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src="imagenes/promociones/promo-1.jpg" alt="Avatar">
+
+
+      <?php
+
+      $imagenesPromo = array(
+        ["promo" => "imagenes/promociones/promo-1.jpg"],
+        ["promo" => "imagenes/promociones/promo-2.jpg"],
+        ["promo" => "imagenes/promociones/promo-3.jpg"],
+        ["promo" => "imagenes/promociones/promo-4.jpg"],
+        ["promo" => "imagenes/promociones/promo-5.jpg"],
+
+
+      )
+
+      ?>
+
+
+
+      <?php
+
+
+      foreach ($imagenesPromo as $promo) {
+      ?>
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="<?php echo $promo['promo']; ?>" alt="Avatar">
+          </div>
         </div>
-        <!-- <div class="flip-card-back">
-          <img src="imagenes/imagen_atras_uno.jpeg" alt="">
-        </div> -->
-      </div>
-      <div class="flip-card-inner">
+      <?php
+      };
+
+      ?>
+
+      <!-- <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="imagenes/promociones/promo-2.jpg" alt="Avatar">
         </div>
-        <!-- <div class="flip-card-back">
-          <img src="imagenes/imagen_atras_tres.jpeg" alt="">
-        </div> -->
       </div>
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="imagenes/promociones/promo-3.jpg" alt="Avatar">
         </div>
-        <!-- <div class="flip-card-back">
-          <img src="imagenes/imagen_atras_dos.jpeg">
-        </div> -->
       </div>
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="imagenes/promociones/promo-4.jpg" alt="Avatar">
         </div>
-        <!-- <div class="flip-card-back">
-          <img src="imagenes/imagen_atras_dos.jpeg">
-        </div> -->
       </div>
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="imagenes/promociones/promo-5.jpg" alt="Avatar">
         </div>
-        <!-- <div class="flip-card-back">
-          <img src="imagenes/imagen_atras_dos.jpeg">
-        </div> -->
-      </div>
+      </div> -->
     </div>
+
 
     <div class="somos">
       <div class="item_somos">
